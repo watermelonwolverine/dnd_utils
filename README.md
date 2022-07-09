@@ -2,7 +2,7 @@
 
 Collection of scripts and tools for working with D&D content, especially maps.
 
-# batch_convert_to_webp.ps1
+# extract_overhead_tile.ps1
 
 ## Setup
 
