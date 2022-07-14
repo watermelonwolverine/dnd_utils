@@ -38,4 +38,15 @@ def process_file(path_to_dir: str, file_name: str):
     target_file.close()
 
 
-process_directoy(".")
+def main():
+    if len(sys.argv) != 2:
+        raise Exception("Wrong number of arguments. Are you missing a target?")
+
+    target_path = sys.argv[1]
+
+    process_directoy(target_path)
+
+
+if __name__ == "__main__":
+    main()
+
