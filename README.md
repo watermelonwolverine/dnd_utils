@@ -2,13 +2,14 @@
 
 Collection of scripts and tools for working with D&D content, especially maps.
 
-# extract_overhead_tile.ps1
+# Install
 
-## Setup
+1. Install ImageMagick ([https://imagemagick.org/](https://imagemagick.org/)) and add it to PATH.
+2. Download Dungeondraft packer and add it to PATH: https://github.com/Ryex/Dungeondraft-GoPackager/releases
+3. Clone Repository and add it to path
 
-1. Install ImageMagick ([https://imagemagick.org/](https://imagemagick.org/)) and add it to your PATH environment variable.
-2. Download the file or clone the repository
-3. Either use the script from where you downloaded it or put the script into a folder that is in your PATH environment variable.
+
+# extract_overhead_tile
 
 ## Usage
 
